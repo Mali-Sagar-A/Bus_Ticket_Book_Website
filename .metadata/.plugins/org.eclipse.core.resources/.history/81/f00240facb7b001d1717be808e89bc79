@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<header align="right"><ul><li><a href="userlogin.html"><input type="submit" value="user"></a> <a href="Admin.html"><input type="submit" value="Admin"></a> <a href="home.html"><input type="submit" value="Home"></a>  <a href="Contact.html"><input type="submit" value="Contact"></a>
+</header>
+<h1>Welcome To BookMy Ticket</h1>
+<h3><ul type="square">
+<li>Online Booking</li>
+<li>Pay Online</li>
+<li>save Your Time</li>
+</ul>
+</h3>
+
+
+<footer><h4><b>About:</b>It is platform for online Bus Seat Reaservation.</h4><h4 align="right"><b>ContactNo:</b>9172742729</h4></footer>
+</body>
+</html>

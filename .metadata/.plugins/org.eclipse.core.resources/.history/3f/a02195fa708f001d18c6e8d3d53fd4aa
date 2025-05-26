@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<header align="right"><a href="index.html"><input type="submit" value="Home"></a>
+<a href="AdminPage.html"><input type="submit" value="Admin"></a></header>
+<form method="post" action="AdminregServlet" align="center">
+<legend><h2>New Admin</h2></legend>
+Admin ID:<pre><input type="text" name="s1"></pre><br>
+Password:<pre><input type="text" name="s2"></pre><br>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

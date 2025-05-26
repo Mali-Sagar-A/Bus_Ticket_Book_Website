@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form method="post" action="userregServlet" align="center">
+<legend><h2>User Registration</h2></legend><br><br>
+Frist Name:<input type="text" name="t4"><br><br>
+Last Name: <input type="text" name="t5"><br><br>
+ Email Id:     <input type="text" name="t6"><br><br>
+Username:  <input type="text" name="t1"><br><br>
+Password:  <input type="text" name="t2"><br><br>
+     <input type="submit" value="Register"><br><br>
+</form>
+
+</body>
+</html>

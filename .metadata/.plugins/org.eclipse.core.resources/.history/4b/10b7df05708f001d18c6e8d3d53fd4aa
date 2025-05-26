@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" import="java.sql.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+input.button {
+width:100px;
+
+right:20px;
+bottom:20px;
+background:#09C;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1p solid #999;
+}
+input.button:hover {
+background:#fff;
+color:#09C;
+}
+</style>
+</head>
+<body>
+<header align="right"><a href="index.html"><input class="button" type="submit" value="Home"></a> 
+<a href="Contact.html"><input class="button" type="submit" value="Contact"></a>
+ </header>
+<%
+try{
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/bus","root","root");
+	PreparedStatement stat=con.prepareStatement("update busrec set frm=?, too=?, departure=?, arival=?, date=?, bus_t=?, price=? where busid=?");
+	 stat.setInt(8,Integer.parseInt(request.getParameter("m1")));
+	stat.setString(1,request.getParameter("m2"));
+	stat.setString(2,request.getParameter("m3"));
+	stat.setString(3,request.getParameter("m4"));
+	stat.setString(4,request.getParameter("m5"));
+	stat.setString(5,request.getParameter("m6"));
+	stat.setString(6,request.getParameter("m7"));
+	stat.setString(7,request.getParameter("m8"));
+	stat.executeUpdate();
+	out.println("<h1>Record Updated</h1>");
+	con.close();
+}
+catch(Exception e)
+{
+	out.println(e);
+}
+%>
+
+</body>
+</html>

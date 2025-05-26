@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TicketBook/src/main/webapp/addminregisteradmin.html&apos; to &apos;adminreg.html&apos;" description="Rename resource &apos;addminregisteradmin.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/addminregisteradmin.html" name="adminreg.html" stamp="1673067422803" updateReferences="true"/>
+</session>

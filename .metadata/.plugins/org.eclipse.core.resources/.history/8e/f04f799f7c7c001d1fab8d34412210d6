@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<header align="right"><a href="Home.html"><input type="submit" value="Home"></a> <a href="Contact.html"><input type="submit" value="Contact"></a>
+ </header>
+
+
+<br>
+<form methode="post" action="userloginServlet" align="center" >
+
+<legend><h2><b>User Login</b></h2></legend><br>
+User Id:  <input type="text" name="t1"><br><br>
+Password: <input type="text" name="t2"><br><br>
+     <input type="submit" value="login"> <br>
+     
+
+<a href="userreg.html"><u>new User registeration</u></a>
+</form>
+
+</body>
+</html>

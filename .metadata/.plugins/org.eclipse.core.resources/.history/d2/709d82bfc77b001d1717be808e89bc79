@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+<body>
+<header align="right"><a href="userlogin.html"><input type="submit" value="user"></a><a href="Admin.html"><input type="submit" value="Admin"></a></header>
+</body>
+</html>
